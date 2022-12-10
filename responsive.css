@@ -1,0 +1,32 @@
+@media screen and (max-width: 380px) {
+	.contenedor {
+		width: 100%;
+		margin: 50px auto;
+		min-height: 600px;
+	}
+	.seccion_inicial {
+		padding: 20px 0;
+		justify-content: space-between;
+	}
+
+	.texto_push {
+		width: 80%;
+	}
+
+	.btn_agregar {
+		width: 20%;
+	}
+
+	.tareas_agregadas, .tareas_listas, .tarea {
+		width: 100%;
+	}
+
+	.tarea_text {
+		margin: 10px 0px 10px 5px;
+		width: 70%;
+	}
+
+	.btn_borrar {
+		width: 20%;
+	}
+}

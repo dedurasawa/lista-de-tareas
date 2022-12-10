@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dddddd;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    min-height: 500px;
+    margin: 120px auto;
+    background-color: #068381;
+    box-shadow: 6px 5px 9px #777777;
+}
+
+.seccion_inicial {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.btn_agregar {
+    border: none;
+    font-weight: 600;
+}
+
+.btn_agregar:hover {
+    background-color: #dddddd;
+}
+
+.texto_push {
+    background-color: #7BA1A0;
+    color: #ffffff;
+    font-size: 1.2rem;
+    height: 2rem;
+    width: 15rem;
+    outline: none;
+    border: none;
+}
+
+.tareas_agregadas {
+    display: flex;
+    justify-content: center;
+}
+
+.tareas_listas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+}
+
+.tarea {
+    display: flex;
+    background-color: #7A9E9E;
+    margin: 10px;
+    width: 280px;
+    justify-content: space-between;
+}
+
+.tarea_text {
+    margin: .7rem 1rem;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.check {
+    margin-left: 5px;
+    width: 1rem;
+}
+
+.btn_borrar {
+    border: none;
+    font-weight: 600;
+}
+
+.btn_borrar:hover {
+    background-color: #dddddd;
+}
+

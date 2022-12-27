@@ -1,6 +1,6 @@
 @media screen and (max-width: 380px) {
 	.contenedor {
-		width: 100%;
+		width: 95%;
 		margin: 50px auto;
 		min-height: 600px;
 	}
@@ -9,7 +9,9 @@
 		justify-content: space-between;
 	}
 
-	.texto_push {
+
+
+	.texto_push, .fecha {
 		width: 80%;
 	}
 
@@ -21,8 +23,11 @@
 		width: 100%;
 	}
 
+	.fecha_texto{
+
+	}
+
 	.tarea_text {
-		margin: 10px 0px 10px 5px;
 		width: 70%;
 	}
 

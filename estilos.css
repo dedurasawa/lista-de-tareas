@@ -11,17 +11,23 @@ body {
     margin: 120px auto;
     background-color: #068381;
     box-shadow: 6px 5px 9px #777777;
+    border-radius: 10px 20px 10px 20px;
 }
 
 .seccion_inicial {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding: 20px;
+}
+.fecha {
+    width: 15rem;
 }
 
 .btn_agregar {
     border: none;
     font-weight: 600;
+    height: 40px;
 }
 
 .btn_agregar:hover {
@@ -53,15 +59,19 @@ body {
 .tarea {
     display: flex;
     background-color: #7A9E9E;
-    margin: 10px;
-    width: 280px;
+    margin: 10px 0;
+    width: 350px;
     justify-content: space-between;
 }
 
-.tarea_text {
-    margin: .7rem 1rem;
+.fecha_texto {
+    margin: 0;
     color: #ffffff;
-    font-weight: 600;
+}
+
+.tarea_text {
+    margin: 0;
+    color: #ffffff;
     letter-spacing: 1px;
 }
 

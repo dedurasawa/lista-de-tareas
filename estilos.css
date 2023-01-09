@@ -64,6 +64,10 @@ body {
     justify-content: space-between;
 }
 
+.separador {
+    width: 73%;
+}
+
 .fecha_texto {
     margin: 0;
     color: #ffffff;

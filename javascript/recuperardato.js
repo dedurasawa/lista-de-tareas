@@ -38,5 +38,4 @@ export function recuperarDato(v1, v2) {
         cardItem.remove();
     })
     return contenedor;
-
 }
